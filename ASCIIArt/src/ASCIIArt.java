@@ -14,15 +14,15 @@ public class ASCIIArt {
 		System.out.println();
 		box(2,2);
 		System.out.println("\n");
-		m();
-		i();
-		c();	
-		r();
-	    o();
-	    s();
-	    o();
-	    f();
-	    t();
+		printM();
+		printI();
+		printC();	
+		printR();
+	    printO();
+	    printS();
+	    printO();
+	    printF();
+	    printT();
 	}
 	/*Prints the Boxes for the traditional Microsoft Logo
 	 * Based on coloring patterns in the Logo
@@ -57,7 +57,7 @@ public class ASCIIArt {
 			}					
 		}	
 	}
-	public static void m(){
+	public static void printM(){
       System.out.println("||\\\\   //||");
       System.out.println("|| \\\\ // ||");
       System.out.println("||   \\/  ||");
@@ -71,7 +71,7 @@ public class ASCIIArt {
       System.out.println("||       ||");
     } 
     // Prints the letter I
-    public static void i(){
+    public static void printI(){
 	  iTop();
 	    for (int i =1; i<=5;i++){
 	      iStruct();
@@ -86,7 +86,7 @@ public class ASCIIArt {
 	    System.out.println("    ||");
 	  }
 	  //Prints the Letter S
-	  public static void s(){
+	  public static void printS(){
 	      sTop();
 	      sStructBig();
 	      System.out.println("\\\\");
@@ -104,7 +104,7 @@ public class ASCIIArt {
       System.out.println("||     ||");
     }
     // Prints the Letter C
-    public static void c() {
+    public static void printC() {
     	cTop();
     	System.out.println(" //");
     	for(int i =1; i<=3;i++) {
@@ -121,7 +121,7 @@ public class ASCIIArt {
     	System.out.println("||");
     }
     //Prints the letter R
-    public static void r() {
+    public static void printR() {
     	rStraight();
     	rTopBody();
     	rStraight();
@@ -146,7 +146,7 @@ public class ASCIIArt {
     	}
     }
     // Prints the letter O
-    public static void o() {
+    public static void printO() {
     	oTop();
     	System.out.println(" //    \\\\");
     	for(int i=1;i<=3;i++) {
@@ -163,7 +163,7 @@ public class ASCIIArt {
     	System.out.println("||     ||");
     }
     //Prints the letter F
-    public static void f() {
+    public static void printF() {
     	System.out.println("=========");
     	for(int i=1;i<=2;i++) {
     		fBody();
@@ -178,7 +178,7 @@ public class ASCIIArt {
     	System.out.println("||");
     }
   //Prints the letter T
-    public static void t() {
+    public static void printT() {
     	System.out.println("=========");
     	for(int i=1;i<=6;i++) {
     		tBody();
