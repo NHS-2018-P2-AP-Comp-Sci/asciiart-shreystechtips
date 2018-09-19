@@ -18,11 +18,11 @@ public class ASCIIArt {
 		printI();
 		printC();	
 		printR();
-	    	printO();
-	    	printS();
-	    	printO();
-	    	printF();
-	    	printT();
+	    printO();
+	    printS();
+	    printO();
+	    printF();
+	    printT();
 	}
 	/*Prints the Boxes for the traditional Microsoft Logo
 	 * Based on coloring patterns in the Logo
