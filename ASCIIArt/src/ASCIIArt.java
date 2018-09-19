@@ -18,11 +18,11 @@ public class ASCIIArt {
 		printI();
 		printC();	
 		printR();
-	    printO();
-	    printS();
-	    printO();
-	    printF();
-	    printT();
+	    	printO();
+	    	printS();
+	    	printO();
+	    	printF();
+	    	printT();
 	}
 	/*Prints the Boxes for the traditional Microsoft Logo
 	 * Based on coloring patterns in the Logo
@@ -58,17 +58,17 @@ public class ASCIIArt {
 		}	
 	}
 	public static void printM(){
-      System.out.println("||\\\\   //||");
-      System.out.println("|| \\\\ // ||");
-      System.out.println("||   \\/  ||");
-      for (int i=1;i<=4;i++) {
-    	  mStruct(); 
-      }
-      System.out.println();
-      System.out.println();
+	      System.out.println("||\\\\   //||");
+	      System.out.println("|| \\\\ // ||");
+	      System.out.println("||   \\/  ||");
+	      for (int i=1;i<=4;i++) {
+		  mStruct(); 
+	      }
+	      System.out.println();
+	      System.out.println();
     }
     public static void mStruct(){
-      System.out.println("||       ||");
+      	System.out.println("||       ||");
     } 
     // Prints the letter I
     public static void printI(){
@@ -101,7 +101,7 @@ public class ASCIIArt {
       System.out.println("  =====");
     }
     public static void sStructBig(){
-      System.out.println("||     ||");
+      	System.out.println("||     ||");
     }
     // Prints the Letter C
     public static void printC() {
