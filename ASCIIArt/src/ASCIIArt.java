@@ -58,17 +58,17 @@ public class ASCIIArt {
 		}	
 	}
 	public static void printM(){
-	      System.out.println("||\\\\   //||");
-	      System.out.println("|| \\\\ // ||");
-	      System.out.println("||   \\/  ||");
-	      for (int i=1;i<=4;i++) {
-		  mStruct(); 
-	      }
-	      System.out.println();
-	      System.out.println();
+      System.out.println("||\\\\   //||");
+      System.out.println("|| \\\\ // ||");
+      System.out.println("||   \\/  ||");
+      for (int i=1;i<=4;i++) {
+    	  mStruct(); 
+      }
+      System.out.println();
+      System.out.println();
     }
     public static void mStruct(){
-      	System.out.println("||       ||");
+      System.out.println("||       ||");
     } 
     // Prints the letter I
     public static void printI(){
@@ -79,29 +79,29 @@ public class ASCIIArt {
 	  iTop();
 	    System.out.println();
 	  }
-	  public static void iTop(){
-	    System.out.println("==========");
+	public static void iTop(){
+	  System.out.println("==========");
 	  }
-	  public static void iStruct(){
-	    System.out.println("    ||");
+	public static void iStruct(){
+	  System.out.println("    ||");
 	  }
 	  //Prints the Letter S
-	  public static void printS(){
-	      sTop();
-	      sStructBig();
-	      System.out.println("\\\\");
-	      sTop();
-	      System.out.println("      \\\\");
-	      sStructBig();
-	      sTop();
-	      System.out.println();
-	      System.out.println();
+	public static void printS(){
+      sTop();
+      sStructBig();
+      System.out.println("\\\\");
+      sTop();
+      System.out.println("      \\\\");
+      sStructBig();
+      sTop();
+      System.out.println();
+      System.out.println();
         }
     public static void sTop(){
       System.out.println("  =====");
     }
     public static void sStructBig(){
-      	System.out.println("||     ||");
+      System.out.println("||     ||");
     }
     // Prints the Letter C
     public static void printC() {
